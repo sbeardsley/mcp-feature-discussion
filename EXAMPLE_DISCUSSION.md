@@ -1,12 +1,12 @@
 # Example Discussion
-The following is an example of a feature discussion between a developer and an AI. After the feature the conversation then moves on to using the [MCP Architect Server](https://github.com/squirrelogic/mcp-architect) to generate a detailed design for the feature.
+The following is an example of a real feature discussion between a developer and an AI. After the feature the conversation then moves on to using the [MCP Architect Server](https://github.com/squirrelogic/mcp-architect) to generate a detailed design for the feature.
 
 ## Feature Discussion
 
-- User:
+### User:
 I would like to discuss a new feature about authentication.
 
-- AI:
+### AI:
 I'll help you start a feature discussion about authentication.
 
 Ran tool: begin_feature_discussion
@@ -20,10 +20,10 @@ Could you please provide a brief description of what you're looking to achieve w
 
 Once you provide these details, we can proceed with a more detailed discussion of the feature.
 
-- User:
+### User:
 I would like it to be able to authenticate with username and password or magic links or pass keys. I would like to also give people the option to authenticate with social providers and SSO
 
-- AI:
+### AI:
 I'll provide this information about your authentication requirements.
 
 Ran tool: provide_feature_input
@@ -35,10 +35,10 @@ The system is now asking about the business value and benefits of implementing t
 
 This will help us better understand the motivation behind implementing these various authentication methods and ensure we design the feature to maximize value for both users and stakeholders.
 
-- User:
+### User:
 The business value for authentication is security
 
-- AI:
+### AI:
 I'll provide this information about the business value focused on security.
 
 Ran tool: provide_feature_input
@@ -50,10 +50,10 @@ The system is now asking about the target users for this authentication feature.
 
 This information will help us ensure the authentication system is designed appropriately for its intended audience.
 
-- User:
+### User:
 Yes the target audience for username password would be just general audience everybody. The audience for pass keys would be people who are knowledgeable enough about security to use pass keys. Magic link users would be anybody who prefers that method of authentication. For its simplicity, and SSO would be for enterprise users.
 
-- AI:
+### AI:
 I'll provide this detailed breakdown of the target users for each authentication method.
 
 Ran tool: provide_feature_input
@@ -68,10 +68,10 @@ The system is now asking about key requirements and constraints for the authenti
 
 This will help ensure we design a solution that meets all necessary requirements while working within any existing constraints.
 
-- User:
+### User:
 I would say industry best practices are acceptable.
 
-- AI:
+### AI:
 I'll provide information about the requirements based on industry best practices.
 
 Ran tool: provide_feature_input
@@ -85,10 +85,10 @@ The system is now asking about success criteria for the authentication feature. 
 
 This will help us establish clear goals and ways to measure the effectiveness of the authentication system once implemented.
 
-- User:
+### User:
 A successful implementation would be protected resources would not be accessible to anyone who is not authenticated and they would be available to users who are authenticated.
 
-- AI:
+### AI:
 I'll provide these success criteria focused on secure resource access.
 
 Ran tool: provide_feature_input
@@ -101,10 +101,10 @@ The system is now asking about the technical approach for implementing the authe
 
 This will help us understand your technical preferences and constraints for implementing the authentication system.
 
-- User:
+### User:
 The system will be built with Next.js. So I would say, any technologies and frameworks that are standard best practices to use, any libraries, things like that that will provide benefit to the functionality.
 
-- AI:
+### AI:
 I'll provide information about the technical approach using Next.js and recommended authentication solutions.
 
 Ran tool: provide_feature_input
@@ -118,10 +118,10 @@ The system is now asking about potential risks and challenges we should consider
 
 This will help us identify and plan for potential obstacles in advance of implementation.
 
-- User:
+### User:
 Integration concerns would be using OpenID Connect for social authentication using OpenID Connect and SAML for SSO authentication for pass keys making sure that the user has the ability to recover their pass keys in the event that they have wiped their machine. Maybe use BIP39 as a way to create a new monic that they can restore their pass keys with or at least allow them access to the system to generate new pass keys. username and password we should make sure that we check all of the pwn ed databases and other simple password databases as well as using password strength tools that are industry standard to make sure that they are not using a already compromised password or a weak password.
 
-- AI:
+### AI:
 I'll provide these detailed concerns about integration and security considerations.
 
 Ran tool: provide_feature_input
@@ -135,10 +135,10 @@ The system is now asking about the timeline and priority for implementing this a
 
 This will help us plan the implementation schedule and ensure we meet your timing requirements.
 
-- User:
+### User:
 The overall feature is high priority, do immediately. I could see a phased rollout where we start with the simplest options of using username and password with a MFA provider with OTP codes. We could also roll out the OIDC provider capabilities at the same time as well as pass keys. I would say social authentication would come next. And then as a last final functionality, we implement the SSO.
 
-- AI:
+### AI:
 I'll provide this phased implementation plan and priority information.
 
 Ran tool: provide_feature_input
@@ -158,10 +158,10 @@ Would you like to:
 
 Please let me know how you'd like to proceed, and I'll be happy to help with the next steps.
 
-- User:
+### User:
 Can you give me a complete technical breakdown of that feature that we just discuss?
 
-- AI:
+### AI:
 I'll help analyze the architecture of this authentication feature based on our discussion.
 
 Ran tool: analyze_architecture

@@ -1,3 +1,7 @@
+---
+description: Ensures proper setup of community project files and 
+globs: 
+---
 # Community Projects Rule
 Standards for initializing and maintaining community-focused open source projects.
 
@@ -65,11 +69,11 @@ actions:
 
          ## Contributing
 
-         Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+         Please read [CONTRIBUTING.md](mdc:CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
          ## License
 
-         This project is licensed under the [LICENSE_NAME] - see the [LICENSE](LICENSE) file for details.
+         This project is licensed under the [LICENSE_NAME] - see the [LICENSE](mdc:LICENSE) file for details.
          ```
 
       2. CONTRIBUTING.md contains:
