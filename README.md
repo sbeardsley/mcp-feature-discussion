@@ -10,6 +10,8 @@ This server provides:
 - Intelligent guidance on development approaches and best practices
 - Context-aware recommendations based on project history
 
+<a href="https://glama.ai/mcp/servers/5lu4y0g8m5"><img width="380" height="200" src="https://glama.ai/mcp/servers/5lu4y0g8m5/badge" alt="Feature-Discussion Server MCP server" /></a>
+
 ## Features
 
 ### AI Lead Developer Interface
