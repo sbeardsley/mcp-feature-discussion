@@ -1,5 +1,7 @@
 # feature-discussion MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@squirrelogic/mcp-feature-discussion)](https://smithery.ai/server/@squirrelogic/mcp-feature-discussion)
+
 A TypeScript-based Model Context Protocol (MCP) server that facilitates intelligent feature discussions between developers and AI. This server acts as an AI lead developer, providing guidance on feature implementation, maintaining context of discussions, and helping teams make informed architectural decisions.
 
 [Example Discussion](EXAMPLE_DISCUSSION.md)
@@ -37,6 +39,16 @@ This server provides:
 - Remember previous discussion outcomes
 
 ## Installation
+
+### Installing via Smithery
+
+To install Feature Discussion Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@squirrelogic/mcp-feature-discussion):
+
+```bash
+npx -y @smithery/cli install @squirrelogic/mcp-feature-discussion --client claude
+```
+
+### Installing Manually
 
 To use with Claude Desktop, add the server config:
 
